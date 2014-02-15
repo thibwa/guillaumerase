@@ -37,3 +37,12 @@ function buildContextPath(){
     }
 	return context;
 }
+
+function loadResultPageOnTab(entry){
+    var context = buildContextPath();
+    if(entry != ""){
+        window.location.href = context + "?p=result&filter=" + entry;
+    } else {
+        window.location.href = context;
+    }
+}

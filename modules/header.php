@@ -44,3 +44,4 @@
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="js/holder.js"></script>
 <script src="js/menu.js"></script>
+<script src="js/result.js"></script>

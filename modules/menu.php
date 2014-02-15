@@ -10,7 +10,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand <?php if($_GET["p"] == null) echo 'active';?>" href="javascript:;" onclick="loadEntry('');">Guillaume Rase</a>
+			<a class="navbar-brand <?php if($_GET['p'] == null) echo 'active';?>" href="javascript:;" onclick="loadEntry('');">Guillaume Rase</a>
 		</div>
 
 		<div class="navbar-collapse collapse">
@@ -35,28 +35,30 @@
 						Résultats <b class="caret"></b>
 					</a>
 					<ul class="dropdown-menu">
-						<li <?php if($_GET['p'] == "result") echo 'class="active"';?>>
+						<li <?php if($_GET['p'] == "result" && $_GET['filter'] == "") echo 'class="active"';?>>
                             <a href="javascript:;" onclick="loadEntry('result');">Tous</a>
 						</li>
 						<li class="divider"></li>
 						<?php
-						$result_item = array('1<sup>er</sup> Elite', '4<sup>e</sup> Espoir', '3<sup>e</sup> Espoir',
-							 '2<sup>e</sup> Espoir', '1<sup>er</sup> Espoir');
-						$counter = 0;
-				        foreach(glob('resources/result/new/*') as $year)
-				        {
-				            ?>
-				            <li>
-								<a href="javascript:;" onclick="loadEntry('result');">
-									<?php echo $result_item[$counter]; ?>
-								</a>
-							</li>
-							<?php
-				            $counter ++;
-				        }
+                            $result_item = array('1<sup>er</sup> Elite', '4<sup>e</sup> Espoir', '3<sup>e</sup> Espoir',
+                                 '2<sup>e</sup> Espoir', '1<sup>er</sup> Espoir');
+                            $counter = 0;
+                            foreach(glob('resources/result/new/*') as $year)
+                            {
+                                ?>
+                                <li <?php if($_GET['filter'] == "$counter") echo 'class="active"';?>>
+                                    <a href="javascript:;" onclick="loadResultPageOnTab('<?php echo $counter; ?>');">
+                                        <?php echo $result_item[$counter]; ?>
+                                    </a>
+                                </li>
+                                <?php
+                                $counter ++;
+                            }
 				        ?>
 						<li class="divider"></li>
-						<li><a href="javascript:;">Anciens</a></li>
+						<li <?php if($_GET['filter'] == "$counter") echo 'class="active"';?>>
+                            <a href="javascript:;" onclick="loadResultPageOnTab('<?php echo $counter; ?>');">Anciens</a>
+                        </li>
 					</ul>
 				</li>
 				<li <?php if($_GET["p"] == "news") echo 'class="active"';?>>
