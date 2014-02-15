@@ -41,13 +41,17 @@
             </p>
             <blockquote>
                 <p>
-                    Je peux d'ailleurs toujours compter sur le soutien de mon 
-                    entraîneur Charly BERARD, ancien professionnel rempli d'expériences, 
-                    et de Geneviève DANIS mon mentor qui tous deux m'aident à réaliser mon rêve. 
-                    Merci à tous les deux.
+                    Cette saison se passera sous les couleurs du Pesant Club liègeois qui m'a accorder sa confiance et
+                    j'ai bien l'intention d'en être digne.
                 </p>
             </blockquote>
 
+            <p>
+                Je peux d'ailleurs toujours compter sur le soutien de mon
+                entraîneur Charly BERARD, ancien professionnel rempli d'expériences,
+                et de Geneviève DANIS mon mentor qui tous deux m'aident à réaliser mon rêve.
+                Merci à tous les deux.
+            </p>
             <div style="float: right;" class="fb-share-button" data-href="http://www.guilaumerase.be/test" data-type="button_count"></div>
         </div>
     </div>
