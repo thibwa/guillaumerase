@@ -45,7 +45,7 @@
                                 // [1] : result
                                 // [2] : superscript
                                 // [3] : date in format dd/MM/yyyy
-                                $resultObject = explode(" ", $line);
+                                $resultObject = explode("*", $line);
                                 if(count($resultObject) >= 4){
                                     ?>
                                         <li class="list-group-item <?php if($resultObject[1] == 1) echo 'list-group-item-success'; ?>">
@@ -78,7 +78,7 @@
 									// [1] : result
 									// [2] : superscript
 									// [3] : date in format dd/MM/yyyy
-									$resultObject = explode(" ", $line);
+									$resultObject = explode("*", $line);
 									if(count($resultObject) >= 4){
 										?>
 											 <li class="list-group-item <?php if($resultObject[1] == 1) echo 'list-group-item-success'; ?>">
@@ -111,7 +111,7 @@
 					// [1] : result
 					// [2] : superscript
 					// [3] : date in format dd/MM/yyyy
-					$resultObject = explode(" ", $line);
+					$resultObject = explode("*", $line);
 					if(count($resultObject) >= 4){
 						?>
 							 <li class="list-group-item <?php if($resultObject[1] == 1) echo 'list-group-item-success'; ?>">
