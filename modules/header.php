@@ -36,6 +36,7 @@
 <link href="css/result.css" rel="stylesheet">
 <link href="css/orientation-tab.css" rel="stylesheet">
 <link href="css/contact.css" rel="stylesheet">
+<link href="css/news.css" rel="stylesheet">
 
 <!-- Bootstrap core JavaScript
 ================================================== -->
@@ -46,3 +47,4 @@
 <script src="js/menu.js"></script>
 <script src="js/result.js"></script>
 <script src="js/contact.js"></script>
+<script src="js/news.js"></script>

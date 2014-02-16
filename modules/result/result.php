@@ -129,11 +129,6 @@
 	</div>    
 </div>
 
-<script>
-    $( document ).ready(function () {
-        jQuery('.result-tab a').bind('click',function(){ switchTab(this); })
-    });
-</script>
 <?php
     if($_GET['filter'] == ""){ ?>
         <script>
