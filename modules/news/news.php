@@ -1,7 +1,7 @@
 <div class="blog-header">
 	<h1 class="blog-title">Actualités</h1>
 	<p class="lead blog-description">
-		A compléter
+		Toute mon actualité est affichée ici.
 	</p>
 </div>
 <div class="row">
