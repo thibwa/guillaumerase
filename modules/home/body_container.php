@@ -3,7 +3,7 @@
 <!-- Wrap the rest of the page in another container to center all the content. -->
 
 <div id="fb-root"></div>
-<!--
+
 <script>(function(d, s, id) {
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
@@ -12,7 +12,7 @@
         fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
 </script>
--->
+
 <div class="blog-header" id="introduction">
     <h1 class="blog-title">Biographie</h1>
 
@@ -52,7 +52,9 @@
                 et de Geneviève DANIS mon mentor qui tous deux m'aident à réaliser mon rêve.
                 Merci à tous les deux.
             </p>
-            <div style="float: right;" class="fb-share-button" data-href="http://www.guilaumerase.be/test" data-type="button_count"></div>
+            <p style="text-align: right;">
+                <div style="float: right;" class="fb-share-button" data-href="http://www.guilaumerase.be/" data-type="button_count"></div>
+            </p>
         </div>
     </div>
 </div>
