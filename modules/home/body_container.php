@@ -41,7 +41,7 @@
             </p>
             <blockquote>
                 <p>
-                    Cette saison se passera sous les couleurs du Pesant Club liègeois qui m'a accorder sa confiance et
+                    Cette saison se passera sous les couleurs du Pesant Club liègeois qui m'a accordé sa confiance et
                     j'ai bien l'intention d'en être digne.
                 </p>
             </blockquote>
