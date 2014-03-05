@@ -45,13 +45,7 @@
                     j'ai bien l'intention d'en être digne.
                 </p>
             </blockquote>
-
-            <p>
-                Je peux d'ailleurs toujours compter sur le soutien de mon
-                entraîneur Charly BERARD, ancien professionnel rempli d'expériences,
-                et de Geneviève DANIS mon mentor qui tous deux m'aident à réaliser mon rêve.
-                Merci à tous les deux.
-            </p>
+            
             <p style="text-align: right;">
                 <div style="float: right;" class="fb-share-button" data-href="http://www.guilaumerase.be/" data-type="button_count"></div>
             </p>
