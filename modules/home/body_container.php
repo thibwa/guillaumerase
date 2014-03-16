@@ -1,4 +1,4 @@
-<!-- Blog and featurettes
+﻿<!-- Blog and featurettes
 ================================================== -->
 <!-- Wrap the rest of the page in another container to center all the content. -->
 
@@ -52,6 +52,7 @@
                 et de Geneviève DANIS mon mentor qui tous deux m'aident à réaliser mon rêve.
                 Merci à tous les deux.
             </p>
+
             <p style="text-align: right;">
                 <div style="float: right;" class="fb-share-button" data-href="http://www.guilaumerase.be/" data-type="button_count"></div>
             </p>
